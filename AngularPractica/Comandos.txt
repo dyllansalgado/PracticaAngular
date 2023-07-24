@@ -1,0 +1,5 @@
+1. Para iniciar el proyecto se usa: ng serve
+2. Crear nuevo componente: ng generate component "ruta/nombre" o ng g c "ruta/nombre" crea 4 archivos con el nombre del componente.
+3.1 Para ocupar un json de prueba se llama a: npm i -g json-server
+3.2 Para ocupar el server con la api es: npm run serverAPI
+4. angular material muy similar a react bootstrap,se instala ng add @angular/material y se encuentran los componentes en https://material.angular.io/guide/getting-started 
