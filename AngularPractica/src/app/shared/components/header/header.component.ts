@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-header',
   template: `
-  <mat-toolbar>
+  <mat-toolbar color="primary">
     <span>Mi primera aplicación</span>
   </mat-toolbar>
   `,

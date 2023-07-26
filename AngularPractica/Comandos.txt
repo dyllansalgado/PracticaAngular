@@ -3,3 +3,6 @@
 3.1 Para ocupar un json de prueba se llama a: npm i -g json-server
 3.2 Para ocupar el server con la api es: npm run serverAPI
 4. angular material muy similar a react bootstrap,se instala ng add @angular/material y se encuentran los componentes en https://material.angular.io/guide/getting-started 
+5. Para crear un nuevo modulo se usa ng generate m ruta/nombreModulo -m=app --r (nombre de la ruta)
+6. Para crear un componente dentro de una carpeta y evitar que se cree el fichero de testing, es ng g c carpeta/carpeta/nuevoComponente --skip-tests 
+7. Para crear un service se usa el comando ng g service ruta/nombre --skip-test
