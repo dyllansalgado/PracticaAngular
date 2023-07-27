@@ -6,6 +6,7 @@ const routes: Routes = [
 
   //Se crea una nueva ruta que muestra el componente dominicode
   { path: 'products', loadChildren: () => import('./pages/products/products.module').then(m => m.ProductsModule) },
+  { path: 'checkout', loadChildren: () => import('./pages/checkout/checkout.module').then(m => m.CheckoutModule) },
   //Ahora para evitar que se muestre el error de consola cuando se ingresa a rutas que no existen se hace lo siguiente
   {path: '**', redirectTo: '', pathMatch: 'full'},
 ];
