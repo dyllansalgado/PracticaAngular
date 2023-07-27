@@ -8,7 +8,7 @@
         {{product.description}}
     </mat-card-content>
     <mat-card-actions>
-        <button mat-flat-button color="primary">Comprar
+        <button mat-flat-button color="primary" (click)= "onClick()">Comprar
             <!--- Currency permite modificar el pipe, cambiando el valor a precio dolar -->
             {{product.price | currency}}
             <mat-icon>shopping_cart</mat-icon>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ShoppingCartService } from '../../services/shopping-cart.service';
 
 
 @Component({
@@ -6,10 +7,12 @@ import { Component } from '@angular/core';
   template: `
   <mat-toolbar color="primary">
     <span>Mi primera aplicación</span>
+    <span class="spacer"></span>
+    <app-cart></app-cart>
   </mat-toolbar>
   `,
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  
 }

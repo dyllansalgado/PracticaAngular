@@ -8,11 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 //Para realizar los service se importa esto.
 import { HttpClientModule} from '@angular/common/http';
+import { CartComponent } from './shared/components/cart/cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    CartComponent,
   ],
   imports: [
     BrowserModule,
